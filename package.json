@@ -2,7 +2,7 @@
   "name": "advent-of-code-2020",
   "version": "1.0.0",
   "description": "",
-  "main": "out/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
