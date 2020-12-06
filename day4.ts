@@ -2,11 +2,6 @@ import fs from 'fs';
 import readline from 'readline';
 import { Puzzle, Solution } from './puzzle';
 
-// class PassportParser
-// {
-//     parse(inputFile: string): 
-// }
-
 export default class Day4Puzzle extends Puzzle
 {
     constructor() { super(4, './input/day4.txt'); }
@@ -119,7 +114,7 @@ export default class Day4Puzzle extends Puzzle
         }
 
         // I don't seem to be getting the very last line
-        // to close out the last one...
+        // to close out the last one... sigh...
         consumeCurrentPassport();
 
         let solution = new Solution();
