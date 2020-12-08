@@ -6,6 +6,8 @@ import Day3Puzzle from './day3';
 import Day4Puzzle from './day4';
 import Day5Puzzle from './day5';
 import Day6PuzzleBinary from './day6';
+import Day7Puzzle from './day7';
+import Day8Puzzle from './day8';
 
 async function run()
 {
@@ -15,7 +17,9 @@ async function run()
         new Day3Puzzle(),
         new Day4Puzzle(),
         new Day5Puzzle(),
-        new Day6PuzzleBinary()
+        new Day6PuzzleBinary(),
+        new Day7Puzzle(),
+        new Day8Puzzle()
     ];
 
     console.log("Advent of Code 2020")
